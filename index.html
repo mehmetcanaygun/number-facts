@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Number Facts</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Number Facts</h1>
+      <p class="desc">Enter a number to see a corresponding fact.</p>
+      <div class="radio-group">
+        <label for="math">
+          <input type="radio" name="r" value="math" checked />
+          Math
+        </label>
+        <label for="trivia">
+          <input type="radio" name="r" value="trivia" />
+          Trivia
+        </label>
+        <label for="year">
+          <input type="radio" name="r" value="year" />
+          Year
+        </label>
+        <button id="random-btn" class="random-btn">Random</button>
+      </div>
+      <input type="number" id="num-input" />
+      <p id="fact"></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
